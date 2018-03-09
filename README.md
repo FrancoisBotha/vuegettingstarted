@@ -1,4 +1,5 @@
 # vuegettingstarted
+<<<<<<< HEAD
 
 > A Vue.js project
 
@@ -16,3 +17,6 @@ npm run build
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+Getting Started Project for Vue.js
+>>>>>>> 4a30d01544a5c58de801b25286fbf3c7fc607dba
