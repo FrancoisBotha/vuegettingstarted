@@ -1,16 +1,23 @@
 <template>
   <div id="app">
     <h1>Vue SPA</h1>
-    <h1>{{ msg }}</h1>
+    <h3>{{ msg }}</h3>
+    <hr>
+    <app-header></app-header>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'app',
-  data () {
-    return {
-      msg: javaObj.message
+  import Header from './components/Header.vue'
+  export default {
+    name: 'app',
+    components: {
+      appHeader: Header
+    },  
+    data () {
+      return {
+        msg: javaObj.message
     }
   }
 }
