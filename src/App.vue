@@ -17,7 +17,7 @@
     },  
     data () {
       return {
-        msg: javaObj.message
+        msg: proxyObj.accessToken
     }
   }
 }
