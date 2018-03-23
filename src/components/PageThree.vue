@@ -12,13 +12,13 @@
   var axiosProxyS = axios.create({
     baseURL: 'http://localhost:7000/', // process.env.baseApiUrl,
     timeout: 1000,
-    headers: {'Authorization': 'Bearer ' + proxyObj.accessToken}
+    headers: {'Authorization': 'Bearer ' + 'proxyObj.accessToken'}
   })
 
   export default {
     data () {
       return {
-        apiToken: proxyObj.accessToken // eslint-disable-line no-use-before-define
+        apiToken: 'proxyObj.accessToken' // eslint-disable-line no-use-before-define
       }
     },
     methods: {

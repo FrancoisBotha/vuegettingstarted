@@ -17,7 +17,7 @@
     },  
     data () {
       return {
-        msg: proxyObj.accessToken
+        msg: 'proxyObj.accessToken'
     }
   }
 }
