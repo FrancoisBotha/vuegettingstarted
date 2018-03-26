@@ -18,8 +18,11 @@
     data () {
       return {
         msg: 'proxyObj.accessToken'
+      }
+    },
+    created () {
+      this.$store.dispatch('initRegions')
     }
-  }
 }
 </script>
 
